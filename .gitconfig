@@ -3,3 +3,5 @@
 	email = austin@austinlin.org
 [github]
 	user = austinylin
+[push]
+	default = simple

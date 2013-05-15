@@ -8,7 +8,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="agnoster"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+#alias ll ="ls -alFh"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set to this to use case-sensitive completion
@@ -48,3 +48,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+if [ -f ~/.zsh/aliases ]; then
+    source ~/.zsh/aliases
+fi
