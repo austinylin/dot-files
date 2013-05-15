@@ -4,4 +4,4 @@
 [github]
 	user = austinylin
 [push]
-	default = simple
+	default = matching
