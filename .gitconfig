@@ -5,3 +5,5 @@
 	user = austinylin
 [push]
 	default = matching
+[core]
+	excludesfile = /Users/austin/.gitignore_global
